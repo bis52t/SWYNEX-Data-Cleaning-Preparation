@@ -1,0 +1,54 @@
+Missing values:
+ PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+
+Exact duplicate rows: 0
+Duplicate PassengerIds: 0
+
+Data types:
+ PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+Sex values: ['male' 'female']
+Embarked values: ['S' 'C' 'Q' nan]
+
+Zero-fare rows (suspicious, kept): 15
+
+Final shape: (891, 13)
+Remaining missing: 0
+passenger_id       int64
+survived            int8
+pclass          category
+name              object
+sex             category
+age              float64
+sib_sp             int64
+parch              int64
+ticket            object
+fare             float64
+embarked        category
+cabin_known         bool
+age_imputed         bool
+dtype: object
